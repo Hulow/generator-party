@@ -44,20 +44,13 @@ h1 {
 }
 
 .custom-map {
-  width: 7%;
+  background-color: rgb(81, 245, 2);
+  border-radius: 25px;
 }
 
 .custom-map > p {
-  font-size: 25px;
-}
-
-.custom-map:hover {
-  background-color: rgba(255, 255, 255, 0.066);
-  border-radius: 15px;
-}
-
-.custom-map > p:hover {
-  color: white;
+  color: rgb(29, 28, 31);
+  font-weight: bolder;
 }
 
 .note-title {
@@ -96,11 +89,7 @@ img {
     width: 25%;
   }
   .custom-map > p {
-    font-size: 20px;
-  }
-  .custom-map:hover {
-    background-color: rgba(255, 255, 255, 0.066);
-    border-radius: 15px;
+    font-size: 15px;
   }
   a {
     width: 50%;
@@ -117,14 +106,10 @@ img {
     font-size: 13px;
   }
   .custom-map {
-    width: 25%;
+    width: 22%;
   }
   .custom-map > p {
-    font-size: 20px;
-  }
-  .custom-map:hover {
-    background-color: rgba(255, 255, 255, 0.066);
-    border-radius: 15px;
+    font-size: 15px;
   }
   a {
     width: 40%;
@@ -135,14 +120,10 @@ img {
 
 @media (min-width: 500px) and (max-width: 767px) {
   .custom-map {
-    width: 30%;
+    width: 15%;
   }
   .custom-map > p {
     font-size: 20px;
-  }
-  .custom-map:hover {
-    background-color: rgba(255, 255, 255, 0.066);
-    border-radius: 15px;
   }
   a {
     width: 40%;
@@ -156,14 +137,7 @@ img {
     font-size: 50px;
   }
   .custom-map {
-    width: 15%;
-  }
-  .custom-map > p {
-    font-size: 20px;
-  }
-  .custom-map:hover {
-    background-color: rgba(255, 255, 255, 0.066);
-    border-radius: 15px;
+    width: 10%;
   }
   a {
     width: 40%;
@@ -177,14 +151,10 @@ img {
     font-size: 50px;
   }
   .custom-map {
-    width: 15%;
+    width: 8%;
   }
   .custom-map > p {
-    font-size: 20px;
-  }
-  .custom-map:hover {
-    background-color: rgba(255, 255, 255, 0.066);
-    border-radius: 15px;
+    font-size: 16px;
   }
   a {
     width: 30%;
@@ -196,5 +166,11 @@ img {
 @media (min-width: 1200px) {
   h1 {
     font-size: 50px;
+  }
+  .custom-map {
+    width: 8%;
+  }
+  .custom-map > p {
+    font-size: 16px;
   }
 }
